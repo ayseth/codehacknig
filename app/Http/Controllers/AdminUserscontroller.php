@@ -16,6 +16,8 @@ class AdminUserscontroller extends Controller
     public function index()
     {
         //
+
+        return view('admin.users.index');
     }
 
     /**
@@ -26,6 +28,8 @@ class AdminUserscontroller extends Controller
     public function create()
     {
         //
+
+        return view('admin.users.create');
     }
 
     /**
@@ -48,6 +52,7 @@ class AdminUserscontroller extends Controller
     public function show($id)
     {
         //
+        return view('admin.users.show');
     }
 
     /**
@@ -59,6 +64,7 @@ class AdminUserscontroller extends Controller
     public function edit($id)
     {
         //
+        return view('admin.users.edit');
     }
 
     /**
