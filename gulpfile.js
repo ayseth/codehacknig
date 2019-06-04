@@ -14,7 +14,7 @@ var elixir = require('laravel-elixir');
 elixir(function(mix) {
     mix.sass('app.scss')
 
-    styles([
+    .styles([
 
     	'libs/blog-post.css',
     	'libs/bootstrap.css',
